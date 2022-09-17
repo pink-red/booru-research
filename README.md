@@ -11,9 +11,26 @@
 Inference on graphs
 - prolog
 
-## Booru interconnectivity — namespaces
-- different meanings for tags in different boorus
-- https://arxiv.org/abs/2206.04453
+
+## Booru interconnectivity
+
+> Each of these datasets has its own set of class labels, its own visual definition for each class, its own set of images following a specific distribution, its own annotation protocols, and was labeled by a different group of humans annotators. As a result, the visual-semantical meaning of a certain label in a particular dataset is unique.
+
+https://arxiv.org/abs/2206.04453
+
+
+### Namespaces
+
+One solution to the problem of possibly different meanings of tags would be to differentiate tags from different boorus. For example, to put them into corresponding namespaces.
+
+
+### Relations between tags of different boorus
+
+> ![image](https://user-images.githubusercontent.com/94079189/190853768-823594e0-0c48-41e1-a0e5-0ba218c2ce4c.png)
+> Fig. 1: Examples of relations: (a) identity: both bicycle labels contain similar instances; (b) parent/child: the animal class contains instances which are either cat or dog; (c) floor and rug-merged overlap in the middle instance. But each label contains instances which are incompatible with the other label.
+
+https://arxiv.org/abs/2206.04453
+
 
 
 ## Nested contexts
@@ -38,7 +55,15 @@ Some tags are disjoint, for example `1girl` and `2girls`. They can't be present 
 
 For example, if there's `1girl` tag in a post, we could say that this tag has 100% probability. Then, `2girls`, `3girls`, etc. would have 0% probability. When training an automated tagger, such as [DeepDanbooru](https://github.com/KichangKim/DeepDanbooru), we could assign 1 to `1girl` and 0 to `2girls` and the others. Absent tags would have probability of 0.5, meaning that it's unknown if they are definitely present or deliberately absent.
 
-See also: https://en.wikipedia.org/wiki/Open-world_assumption
+
+> Statement: "Mary" "is a citizen of" "France"
+>
+> Question: Is Paul a citizen of France?
+>
+> "Closed world" (for example SQL) answer: No.  
+> "Open world" answer: Unknown.
+
+https://en.wikipedia.org/wiki/Open-world_assumption
 
 
 ## Negative tags
