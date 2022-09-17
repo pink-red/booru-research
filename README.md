@@ -16,12 +16,19 @@ Inference on graphs
 
 > Each of these datasets has its own set of class labels, its own visual definition for each class, its own set of images following a specific distribution, its own annotation protocols, and was labeled by a different group of humans annotators. As a result, the visual-semantical meaning of a certain label in a particular dataset is unique.
 
+> Are [labels] in an identity, parent/child, overlap relation? Or is there no link between them at all?
+
 https://arxiv.org/abs/2206.04453
 
+The problems include:
+
+- tags with the same name have different meanings in different boorus
+- tags with different names have same meaning in different boorus
+- some boorus differentiate more varieties of a tag, while other have only one tag
 
 ### Namespaces
 
-One solution to the problem of possibly different meanings of tags would be to differentiate tags from different boorus. For example, to put them into corresponding namespaces.
+One solution to this problem would be to differentiate tags from different boorus. For example, to put them into corresponding namespaces.
 
 - `danbooru/head_back`
 - `sankakuchannel/head_thrown_back`
