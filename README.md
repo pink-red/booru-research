@@ -38,6 +38,8 @@ Some tags are disjoint, for example `1girl` and `2girls`. They can't be present 
 
 For example, if there's `1girl` tag in a post, we could say that this tag has 100% probability. Then, `2girls`, `3girls`, etc. would have 0% probability. When training an automated tagger, such as [DeepDanbooru](https://github.com/KichangKim/DeepDanbooru), we could assign 1 to `1girl` and 0 to `2girls` and the others. Absent tags would have probability of 0.5, meaning that it's unknown if they are definitely present or deliberately absent.
 
+See also: https://en.wikipedia.org/wiki/Open-world_assumption
+
 
 ## Negative tags
 
