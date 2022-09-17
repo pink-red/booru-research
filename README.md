@@ -23,6 +23,9 @@ https://arxiv.org/abs/2206.04453
 
 One solution to the problem of possibly different meanings of tags would be to differentiate tags from different boorus. For example, to put them into corresponding namespaces.
 
+- `danbooru/head_back`
+- `sankakuchannel/head_thrown_back`
+
 
 ### Relations between tags of different boorus
 
