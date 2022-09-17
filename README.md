@@ -16,7 +16,7 @@ Inference on graphs
 
 > Each of these datasets has its own set of class labels, its own visual definition for each class, its own set of images following a specific distribution, its own annotation protocols, and was labeled by a different group of humans annotators. As a result, the visual-semantical meaning of a certain label in a particular dataset is unique.
 
-> Are [labels] in an identity, parent/child, overlap relation? Or is there no link between them at all?
+> Are [labels] in an _identity_, _parent/child_, _overlap_ relation? Or is there no link between them at all?
 
 https://arxiv.org/abs/2206.04453
 
