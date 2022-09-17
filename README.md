@@ -25,7 +25,7 @@ The problems include:
 - tags with the same name have different meanings in different boorus
 - tags with different names have same meaning in different boorus
 - some boorus differentiate more varieties of a tag, while other have only one tag
-- one image can have different sets of tags in different boorus
+- a single image often has different sets of tags in different boorus
 
 ### Namespaces
 
