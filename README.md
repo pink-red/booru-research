@@ -26,7 +26,7 @@ One solution to the problem of possibly different meanings of tags would be to d
 
 ### Relations between tags of different boorus
 
-> ![image](https://user-images.githubusercontent.com/94079189/190853768-823594e0-0c48-41e1-a0e5-0ba218c2ce4c.png)
+> ![image](/label-relations.png)
 > Fig. 1: Examples of relations: (a) identity: both bicycle labels contain similar instances; (b) parent/child: the animal class contains instances which are either cat or dog; (c) floor and rug-merged overlap in the middle instance. But each label contains instances which are incompatible with the other label.
 
 https://arxiv.org/abs/2206.04453
