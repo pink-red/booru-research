@@ -76,6 +76,8 @@ For example, if there's `1girl` tag in a post, we could say that this tag has 10
 
 https://en.wikipedia.org/wiki/Open-world_assumption
 
+- https://en.wikipedia.org/wiki/Jaccard_index
+
 
 ## Negative tags
 
