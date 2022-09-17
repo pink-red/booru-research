@@ -1,4 +1,4 @@
-# booru-research
+# Booru Research
 
 ## Current state of affair
 - posts have tags
@@ -34,7 +34,9 @@ If there's enough information, it is possible to pull tags to the global context
 
 ## Disjoint tags
 
-Some tags are disjoint
+Some tags are disjoint, for example `1girl` and `2girls`. They can't be present in a post at the same time. Knowing which tags are disjoint could help to find and correct tagging errors, and also to automate tagging.
+
+For example, if there's `1girl` tag in a post, we could say that this tag has 100% probability. Then, `2girls`, `3girls`, etc. would have 0% probability. When training an automated tagger, such as [DeepDanbooru](https://github.com/KichangKim/DeepDanbooru), we could assign 1 to `1girl` and 0 to `2girls` and the others. Absent tags would have probability of 0.5, meaning that it's unknown if they are definitely present or deliberately absent.
 
 
 ## Negative tags
